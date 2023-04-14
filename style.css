@@ -1,0 +1,39 @@
+.cell {
+	width: 85px;
+	height: 85px;
+	border: 2px solid;
+	box-shadow: 0 0 0 2px;
+	line-height: 80px;
+	font-size: 50px;
+	cursor: pointer;
+	align-items: center;
+}
+
+#gameContainer {
+	text-align: center;
+}
+#gameContainer h1 {
+     text-align: center;
+     color: #003d99;
+     font-size: 35px;
+	 margin: 40px auto;
+ }
+
+#cellContainer {
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	width: 225px;
+	margin: auto;	
+}
+.cell {
+	background-color: #003d99;
+	color: tomato;
+}
+#statusText {
+	color: #003d99;
+}
+#restartBtn {
+	background-color: tomato;
+	color: #003d99;
+	cursor: pointer;
+}
